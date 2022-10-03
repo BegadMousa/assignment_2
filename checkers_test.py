@@ -4,7 +4,6 @@ This File is Part of the Python Turtle assignment 2 for the course: GCIS 123 sec
 this file is checkers_test.py which is the first requirment for the assignment
 '''
 
-from tracemalloc import start
 import turtle
 
 # constants

@@ -3,8 +3,8 @@ This File is Part of the Python Turtle assignment 2 for the course: GCIS 123 sec
 this file is drawings.py which is the second requirment for the assignment
 To use this file you must have the turtle module installed
 to use this file you must input the file name you want to draw and the file must be in the same directory as this file
-the file must be a text file and must be 20x20 or 25x25
-the code will draw the art based on the file totaly automaticly without havig to input the colors manually
+the file must be a text file and must be 20x20 or 25x25(drawing02)
+the code will draw the art based on the file totaly automaticly without havig to input the colors manually as strings
 '''
 
 import turtle
@@ -80,7 +80,7 @@ def Draw_art():
     # draw art from file
     with open(filename) as f:
         for line in f:
-            # print(len(line))
+            # screen size is 25x25
             if len(line) >= 25:
                 num_pixels = 25
                 
